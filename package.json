@@ -1,23 +1,20 @@
 {
-  "name": "groq-chatbot-debate-tool",
-  "version": "1.0.0",
-  "description": "A chatbot using Groq API with a debate argument checker and auto-correct tool.",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "groq-sdk": "^0.15.0",
     "jsdom": "^26.0.0",
-    "node-fetch": "^3.3.2",
-    "path": "^0.12.7"
+    "node-fetch": "^3.3.2"
   },
+  "name": "ai-for-openchat-deepseek-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "keywords": [],
-  "type": "module"
+  "description": ""
 }
